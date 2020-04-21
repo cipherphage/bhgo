@@ -4,9 +4,10 @@
 
 ## To run:
 - Assumes you have Golang installed: [https://golang.org/doc/install][2]
+- Note: these are basically stand alone scripts and as such they each have their own main function. I may change this in the future because it is not in keeping with go styles.
 - In this directory simply run `go run <name of go file>`. E.g., `go run tcp_scanner_slow.go`
 - Alternatively you can run `go build <name of go file>` and then `./<name of executable>`. E.g., `go build tcp_scanner_slow.go` and then `./tcp_scanner_slow`.
-- Similarly, for tests simply run `go test -v <name of go test file>`.
+- Similarly, for tests simply run `go test -v <name of go test file>`. There are no tests right now.
 
 ## The examples:
 
